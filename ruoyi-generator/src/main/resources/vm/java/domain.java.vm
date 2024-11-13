@@ -25,7 +25,7 @@ import com.ruoyi.common.core.domain.TreeEntity;
 @Data
 public class ${ClassName} extends ${Entity}
         {
-private static final long serialVersionUID = 1L;
+private static final long serialVersionUID=1L;
 
 #foreach ($column in $columns)
     #if(!$table.isSuperColumn($column.javaField))
@@ -64,3 +64,4 @@ private List<${subClassName}> ${subclassName}List;
         #end
     #end
 #end
+        }
